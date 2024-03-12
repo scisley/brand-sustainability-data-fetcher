@@ -2,19 +2,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Data Table Example</title>
+    <title>Brand Sustainability Data</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
 </head>
 <body style="padding: 30px">
+
 <h1>Brand Self Reported Sustainability Efforts</h1>
+
 <p>
-This page was created by me, <a href="https://www.linkedin.com/in/stevecisley/">Steven Isley</a>. I used LangChain and generative AI to automate the process of 
-finding, downloading, and summarizing the self reported sustainability efforts of the top 1,000 most famous
-US brands. For full details, see this <a href="https://colab.research.google.com/drive/1vHvDxtA7-8-_xl6AdCx9Hr0qZBFUWNib#scrollTo=xDbexGbpxqhW">
-Google Colab Notebook</a>.
+<b>Created by <a href="https://www.linkedin.com/in/stevecisley/">Steven Isley</a>.</b>
 </p>
+
+<p>
+I used LangChain and generative AI to automate the process of finding, downloading, 
+and summarizing the self reported sustainability efforts of the top 1,000 most famous
+US brands. This web page summarizes the results. The full code is available on 
+<a href="https://github.com/scisley/brand-sustainability-data-fetcher">GitHub</a>. 
+You can download a csv file of the data there. 
+</p>
+
+<p>
+The code is also available in a 
+<a href="https://colab.research.google.com/drive/1vHvDxtA7-8-_xl6AdCx9Hr0qZBFUWNib#scrollTo=xDbexGbpxqhW">
+Google Colab Notebook</a>. 
+</p>
+
 <table id="data-table" class="display">
     <thead>
         <tr>
